@@ -11,20 +11,21 @@ full crud
  # step 0
     Download this project
  # step 1
- Create database in your workspace with name # querobukar
+    Create database in your workspace with name # querobukar
  # step 2
- Go to Script-Database, get the database script and put in your database
+    Go to Script-Database, get the database script and put in your database
  # step 3
-Configue a virtual host
+    Configue a virtual host
 
-example: http://localhost:443
+        example: http://localhost:443
 
-Or get all folder in QueroBukar folder and put in your localhost main folder
+    Or get all folder in QueroBukar folder and put in your localhost main folder
 
-access from : http://localhost/
+        access from : http://localhost/
 # step 4
-run project from your virtual host in your browser
+    run project from your virtual host in your browser
 
 # Deflaut User in application
-user: Root
-pass: 123456
+    username: Root
+    
+    password: 123456
