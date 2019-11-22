@@ -27,4 +27,5 @@ run project from your virtual host in your browser
 
 # Deflaut User in application
 user: Root
+
 pass: 123456
