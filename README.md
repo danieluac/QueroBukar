@@ -1,9 +1,9 @@
 # QueroBukar
-Sistema de gestão de biblioteca, permite o cadastro de livros, gera relatórios, permite que estudantes solicitem livros apartir de app android e que participem de um fórum estudantil.
+    Sistema de gestão de biblioteca, permite o cadastro de livros, gera relatórios, permite que estudantes solicitem livros apartir de app android e que participem de um fórum estudantil.
 
 # Querobukar
-Library management System, allow add  and sell book, show book report, allow studant require book from android app.
-full crud
+    Library management System, allow add  and sell book, show book report, allow studant require book from android app.
+    full crud
 
 
 # How can install (como instalar)
