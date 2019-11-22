@@ -1,0 +1,371 @@
+/**********FRAMES DE OPACIDDADE***/
+html{
+	-webkit-animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	-ms-animation: fadein 2s;
+	-o-animation: fadein 2s;
+	animation: fadein 2s;
+}
+
+@keyframes fadein{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+@-moz-keyframes fadein{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+
+@-ms-keyframes fadein{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+
+@-o-keyframes fadein{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+
+@-webkit-keyframes fadein{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+/* NAV HEADER PAGE EMPLOYEE */
+*{
+	margin: 0px;
+	padding: 0px;
+	color:#ffffff;
+}
+.nav-employee
+{
+	position: fixed;
+	width: 100%;
+	z-index: 1029;
+	background: #ffffff;
+	/*rgba(246,142,86,1); */
+	height:54px !important;
+	box-shadow: 0px 0px 10px 2px #a5a1a1;
+	border:none;
+}
+.nav-employee a {
+	color:#ffffff;
+}
+/* logo page employee */
+.navbar-img
+{
+	width: 200px;
+	min-height: 20px;
+	float: right !important;
+	top:0px;
+	margin-top: -2px !important;
+}
+a .logo-employee img
+{
+	position:fixed;
+	right: 40px !important;
+	width:60px !important;
+	height:55px !important;
+}
+div.employee-painel
+{
+	background: #ffffff;
+	color: #ffffff !important;
+	position: fixed;
+	z-index:1030;
+	top:53px;
+	left: 0px;
+	bottom:0px;
+	max-width: 57px;
+	min-height: 400% !important;
+	border-radius: 0px;
+	padding: 0px;
+	border:none;
+	box-shadow: 2px 6px 8px 1px #a5a1a1;
+}
+.employee-painel div
+{
+	color: #ffffff !important;
+}
+.painel-left
+{
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	margin-top: 70px;
+	margin-left:0px;
+
+}
+.painel-left > a
+{
+	display: block !important;
+	width:100% !important;
+	padding: 0px 20px 0px 15px;
+	text-align: center;
+	border-radius: 0px !important;
+}
+.painel-left >
+.active
+{
+	width:100% !important;
+	background: #f26522 !important;
+}
+.painel-left >
+.col-md-12  img
+{
+	margin:13px 0px;
+	width: 25px;
+}
+.painel-right
+{
+	background:  #fff;
+	right: 0px;
+	width: 90%;
+	top:85px;
+	left:7%;
+	padding:0px;
+	font-family: 'CaviarDreams';
+}
+.base-1
+{
+    width: 45%;
+    min-height: 230px;
+    padding-left: 2%;
+    margin-right:2%;
+    float: left;
+    margin-bottom:20px;
+}
+.base-2
+{
+	width: 53%;
+  float: left;
+}
+.base-2 >
+.left
+{
+	min-height: 105px;
+	 margin-right: 2%;
+	margin-bottom: 20px;
+  float: left;
+	padding: 20px 2% 0px 2%;
+	width: 32%;
+  color: #fff;
+  text-decoration: none;
+}
+.base-2 >
+.right
+{
+	min-height: 105px;
+	margin-bottom: 20px;
+	float: right;
+	width: 32%;
+	padding:20px 2% 0px 2%;
+	bottom: 0px;
+  color: #fff;
+  text-decoration: none;
+}
+.base-2 >
+.left div,
+.right div
+{
+    width:100%;
+    float: left;
+}
+.base-2 >
+.left div img,
+.right div img
+{
+
+}
+.base-2 >
+.left div h2,
+.right div h2
+{
+    float:right;
+    margin-top:3px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.base-2 >
+.left a,
+.right a
+{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.base-3
+{
+        width:100%;
+	min-height: 250px;
+	padding: 0px;
+	margin-right:2%;
+        float: left;
+}
+.base-3 > .base-3-1
+{
+    width: 45%;
+    float: left;
+}
+.base-3 > .base-3-2
+{
+	width: 53%;
+	min-height: 280px;
+        float: right;
+        padding-top: 10px;
+}
+.base-3 >
+.base-3-1
+.left,
+.base-3-2
+.left
+{
+	min-height: 130px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+	width: 45%;
+}
+.base-3 >
+.base-3-1
+.left
+.col-md-12,
+.base-3-2
+.left
+.col-md-12
+{
+	min-height: 40px;
+	bottom: 0px;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+.base-3 >
+.base-3-1
+.right,
+.base-3-2
+.right
+{
+	min-height: 130px;
+	margin-bottom: 20px;
+	float: right;
+	width: 45%;
+	text-align: center;
+	padding:20px 0px 0px 0px;
+	bottom: 0px;
+}
+.base-3 >
+.base-3-1
+.right
+.col-md-12,
+.base-3-2
+.right
+.col-md-12
+{
+	min-height: 40px;
+	bottom: 0px;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+.form-group >
+input,
+textarea,
+select,
+option
+{
+    color:#000000 !important;
+    font-weight:bolder;
+}
+/* FOrmulário do livro */
+form > left
+{
+    margin-right: 1%;
+}
+.btn:hover.laranja-hero
+{
+    color:#ffffff !important;
+}
+/* modal */
+.modal-header
+{
+    border: none !important;
+}
+.modal-content
+{
+   border-radius:2px !important;
+}
+/* LISTAGEM DE LIVROS */
+.dataTable
+thead >
+tr th,
+.dataTable
+tbody >
+tr td
+{
+    color: #000000 !important;
+    font-size: 15px;
+    font-family: 'arial';
+    text-align: center;
+}
+.base-1-lista
+{
+    width: 100%;
+    min-height: 50px;
+    padding-left: 2%;
+    margin-right:2%;
+    float: left;
+    margin-bottom:20px;
+    text-align: center;
+}
+/* ************************************************
+************** DATATABLE **************************/
+.active >a
+{
+    background: #000 !important;
+    border: 1px #000 !important;
+}
+.dataTables_info
+{
+    color: rgba(242,101,34,1) !important;
+    font-weight: bolder;
+}
+.dataTable{ border: 1px rgba(242,101,34,1) solid;}
+.dataTables_filter
+{
+   width: 100% !important;
+
+}
+.dataTables_filter >
+label
+{
+   color: rgba(242,101,34,1);
+   margin-left:-19% !important;
+   float: left;
+   width: 100%;
+}
+.dataTables_filter >
+label input
+{
+    border: 1px rgba(242,101,34,1) solid;
+   color: #f26522;
+   margin-left: 0em !important;
+  width: 100% !important;
+  height: 35px !important;
+
+}
+.dataTables_filter >
+label input:focus,
+.dataTables_filter > label input
+{
+    border: 1px rgba(242,101,34,1) solid;
+}
+input:focus, select:focus, textarea:focus
+{
+    border: 1px rgba(242,101,34,0.7) solid !important;
+}
+input, select, textarea
+{
+    border: 1px rgba(242,101,34,0.5) solid !important;
+}

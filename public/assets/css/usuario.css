@@ -1,0 +1,709 @@
+
+h1, h2, h3, h4, h5, h6
+{
+    margin: 0px;
+    padding: 0px;
+}
+a
+{
+  color: #000;
+}
+a:focus
+{
+  color: #000;
+}
+a:hover
+{
+  color: #000;
+}
+ input, textarea
+{
+    color:#000 !important;
+}
+pre
+{
+    width: 100%;
+  font-family:"arial" !important;
+  padding: 10px !important;
+  text-align: left;
+  border-radius: 2px;
+}
+code
+{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+/* ======================== header HEADER ====================== */
+header
+{
+		width: 100%;
+		min-height: 200px;
+		margin: 0px 0% 0px 0%;
+		float: left;
+		background: #bbb;
+}
+header > .header-header
+{
+	width: 100%;
+	min-height: 100px;
+
+}
+header > .header-header > .resp-img
+{
+	width: 150px;
+	height: 200px;
+	margin: 107px auto 0px auto;
+
+}
+header > .header-header > .resp-img img
+{
+	width: 100%;
+	height: 150px;
+	margin: 20px auto 0px auto;
+	border-radius: 5px;
+}
+header > .header-header > .resp-img  label img
+{
+	width: 50px;
+	height: 50px;
+	margin: -60px auto 0px auto;
+	float: right !important;
+	position: relative;
+	border-radius: 5px;
+}
+header > .header-header > .resp-img  label #fileUser
+{
+        display: none;
+}
+/* ======================== */
+header > .header-menu
+{
+	width: 100%;
+	min-height: 50px;
+	background: #000000; /*#f68e56; rgba(33,33,33,1)*/
+	z-index: 1000;
+	box-shadow: 0px 0px 10px 2px #a5a1a1;
+
+	position: fixed;
+}
+
+header > .header-menu nav > .nav-menu
+{
+	width: 100%;
+	height: 50px;
+	float:right;
+}
+header > .header-menu nav > .nav-menu a .menu-item
+{
+	width: 25%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	padding-top: 12px;
+}
+header > .header-menu nav > .nav-menu a .menu-item:hover
+{
+	background: rgba(242,101,34,0.7);
+}
+header > .header-menu nav > .nav-menu a .activo
+{
+	background: rgba(242,101,34,1);
+}
+header > .header-menu nav > .nav-menu a .menu-item img
+{
+	width: 30px;
+	height:25px;
+}
+/* ===================== SECTION BODY ======================== */
+section
+{
+		width: 100%;
+		min-height: 100px;
+		margin: 0px 0% 0px 0%;
+		float: left;
+		background: #fff;
+}
+section > .section-body
+{
+	margin:12px 1% 12px 1%;
+	width: 48%;
+	min-height: 150px;
+	float: left;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,0.4);
+	border-radius: 5px;
+}
+section > .section-body > .sub-header
+{
+	width: 100%;
+	height: 30px;
+	background: rgba(242,101,34,1);
+	color:#fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 5px 10px 0px 20px;
+
+}
+section > .section-body > .sub-header h4
+{
+	font-family: "CaviarDreams";
+	font-weight: bolder;
+	margin: 0px;
+}
+section > .section-body > .sub-body
+{
+	padding: 5px 20px;
+}
+section > .section-body > .sub-body h5
+{
+	float: left;
+	width: 100%;
+	margin: 0px;
+}
+section > .section-body > .sub-body h5 a
+{
+	float: right;
+	margin: 3px;
+}
+section > .section-line
+{
+	width: 100%;
+	background: rgba(0,0,0,1);
+}
+section > .section-line .left
+{
+	width: 75%;
+	min-height: 35px;
+	background: rgba(242,101,34,1);
+	float: left;
+	padding: 8px 0px 5px 10%;
+}
+section > .section-line .right
+{
+	width: 25%;
+	min-height: 35px;
+	background: rgba(0,0,0,1);
+	float: right;
+}
+section > .section-line .left h4, .right h4
+{
+
+	font-family: "CaviarDreams";
+	font-weight: bolder;
+	color:#FFFFFF;
+	margin: 0px;
+}
+/* ==================== section body public PERFIL ESTUDANTE =================== */
+.section-body-public
+{
+	margin:12px 1% 12px 1%;
+	width: 98%;
+	float: left;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,0.4);
+	border-radius: 2px;
+	padding:10px 0px 15px 0px;
+}
+ .section-body-public > .sub-body
+{
+	padding: 10px 20px;
+}
+.section-body-public > .sub-body .public-img
+{
+	width: 60px;
+	float: left;
+}
+ .section-body-public > .sub-body .public-img img
+{
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+        margin-right: 10px;
+}
+ .section-body-public > .sub-body .public-title
+{
+	width: 80%;
+	min-height: 80px;
+	float: right;
+	padding: 5px;
+}
+.section-body-public > .sub-body .public-title h4
+{
+	margin: 1px 0px 1px 0px;
+	font-size: 15px;
+	font-weight: bold;
+}
+ .section-body-public > .sub-body .public-title  h5
+{
+	margin: 1px 0px 1px 0px;
+	font-size: 11px;
+}
+ .section-body-public > .sub-body .public-body
+{
+	width: 100%;
+	min-height: 100px;
+	float: left;
+	margin-top: 5px;
+}
+.div-border
+{
+	border: 1px solid rgba(0,0,0,0.4);
+	padding: 10px;
+}
+ .section-body-public > .sub-body .public-body .div-border
+{
+	border: none;
+	padding: 10px;
+	width: 100%;
+	float: left;
+}
+
+.section-body-public > .sub-body .public-body h4
+{
+	margin: 1px 0px 1px 0px;
+	font-size: 15px;
+	font-weight: bolder;
+}
+.section-body-public > .sub-body .public-body h5
+{
+	margin: 1px 0px 1px 0px;
+	font-size: 14px;
+}
+ .section-body-public > .sub-body .public-body .line-coment
+{
+	width: 100%;
+	border-radius: 3px;
+	margin: 3px 1%;
+	padding: 10px;
+	min-height: 40px;
+	float: right;
+}
+ .section-body-public > .sub-body .public-body
+ .line-coment h3
+{
+	margin: 20px 0px 1px 0px !important;
+	text-align: left;
+  cursor: pointer;
+}
+ .section-body-public > .sub-body .public-body .line-coment hr
+{
+	width: 100%;
+	border-top: 1px solid rgba(0,0,0,0.4);
+}
+.line-coment .comments
+{
+  width: 100%;
+  min-height: 100px;
+}
+ .section-body-public > .sub-body .public-body
+ .line-coment .comments .public-img
+{
+	width: 50px;
+	height: 50px;
+  float: left;
+  margin: 5px;
+}
+ .section-body-public > .sub-body .public-body
+ .line-coment .comments .public-img img
+{
+	width: 50px;
+	height: 50px;
+}
+.section-body-public > .sub-body .public-body
+ .line-coment .comments  h5 a
+{
+	color:#000;
+	font-weight: bold;
+	margin: 5px;
+}
+.line-coment > .comments p
+{
+	float: left;
+  margin-left: 5px;
+}
+.line-coment > .comments .response-coment
+{
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.line-coment > .comments .response
+{
+  width: 95%;
+  min-height: 50px;
+  min-height: 100px;
+  padding:0px 0px 0px 0px !important;
+  margin:10px 0px 0px 5% !important;
+}
+.line-coment > .comments .response .div_rp
+{
+  border: 1px solid #aaa;
+  padding: 5px;
+  margin-top: 5px !important;
+  float: left;
+  width: 100%;
+}
+.line-coment > .comments .response
+.form-rp
+{
+  width: 100%;
+  min-height: 100px;
+  margin-top: 15px;
+  float: left;
+}
+.line-coment > .comments .response
+.form-rp input
+{
+  color: #000 !important;
+}
+ .section-body-public >  .sub-body .public-body
+ .line-coment .form
+{
+	font-size: 14px;
+}
+ .section-body-public > .sub-body .public-body .line-coment > .form textarea
+{
+	width: 100%;
+	margin: 0px 0% 5px 0% !important;
+	border-radius: 2px !important;
+	color: rgba(0,0,0,1) !important;
+}
+
+/* ====================== SECTION CONFIGURAÇÕES */
+section > .panel-group
+{
+	margin-top: 41px;
+}
+section > div .section-config
+{
+	width: 100%;
+	margin: 5px  0% 0% 0% !important;
+	padding: 0px;
+	font-family: "CaviarDreams";
+}
+section > div .section-config .sub-header
+{
+	width: 100%;
+	min-height: 40px;
+	padding: 10px 10px 0px 10px !important;
+	background:rgba(242,101,34,1);
+	text-align: left;
+}
+section > div .section-config .sub-header a
+{
+	text-decoration: none;
+	color: #fff;
+}
+section > div .section-config .sub-header a > h4
+{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+section > div .section-config > .panel-collapse
+{
+	min-height: 100px;
+	padding: 10px;
+}
+section > div .section-config > div .sub-body h5
+{
+	float: left;
+	width: 100%;
+	margin: 0px;
+	padding: 5px;
+}
+section > div .section-config > div .sub-body h5 a
+{
+	float: right;
+	margin: 3px;
+}
+/* ======================== SECTION FÓRUM ==================*/
+section .forum
+{
+	width: 100%;
+	margin: 50px 0%;
+	min-height: 100px;
+	background: #eee;
+}
+.public-recent
+{
+  width: 100%;
+  min-height:100px;
+  border: 1px solid #aaa;
+  margin-top: 20px;
+  padding:5px;
+}
+.public-recent > a img
+{
+  width: 50px;
+  height: 50px;
+  float: left;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.public-recent > a
+{
+  text-decoration: none;
+  color:#000;
+}
+.public-recent > a:hover
+{
+  text-decoration:underline;
+}
+.public-recent a h5
+{
+  font-size: 18px;
+}
+.public-recent > p
+{
+  margin-top: 10px;
+}
+/* ========================= SECTION BOOK ==================*/
+section > .section-book
+{
+	width: 100%;
+	margin-top: 35px;
+        min-height: 100px;
+}
+section > .section-book .section-form
+{
+	width: 100%;
+	min-height: 50px;
+	background: rgba(0, 0, 0,01);
+	padding: 9px 0px 0px 0px;
+  z-index: 1000;
+}
+.section-form
+	{
+		width: 60%;
+		margin:0px 20%;
+		min-height: 50px;
+		background: rgba(0, 0, 0,01);
+		padding: 9px 0px 0px 0px;
+	  z-index: 1000;
+	}
+section > .section-book .section-form-forum
+{
+	width: 100%;
+	min-height: 100px;
+	background: rgba(0, 0, 0,01);
+	padding: 15px 0px 0.5px 0px;
+        z-index: 1000;
+}
+section > .section-book .section-form-forum div textarea:focus
+{
+  border:none;
+  font-size: 16px;
+}
+section > .section-book .circle-search a
+{
+	width: 45px;
+	height: 45px;
+        border-radius: 50px !important;
+        border: none;
+        position: fixed;
+        z-index: 1000;
+        right: 0px;
+        margin: -320px 5px 0px 0px;
+        color: #FFFFFF;
+        text-decoration: none;
+        background: rgba(242,101,34,1);
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        padding-top:8px; 
+}
+section > .section-book .circle-search button
+{
+	width: 45px;
+	height: 45px;
+        border-radius: 50px !important;
+        border: none;
+        position: fixed;
+        z-index: 1000;
+        right: 0px;
+        bottom: 0px;
+        margin: 120px 5px 0px 0px;
+        color: #FFFFFF;
+        background: rgba(242,101,34,1);
+}
+section > .section-book .circle-option button,
+section > .section-book .circle-option a
+{
+	width: 45px;
+	height: 45px;
+        border-radius: 50px !important;
+        border: none;
+        position: fixed;
+        z-index: 1000;
+        right: 0px;
+        bottom: 0px;
+        margin: 120px 52px 0px 0px;
+        color: #FFFFFF;
+        background: rgba(242,101,34,1);
+}
+section > .section-book .section-body
+{
+	width: 100%;
+  min-height: 100px;
+}
+section > .section-book .section-body .section-body-left
+{
+	width: 25%;
+  min-height: 500px;
+  padding: 10px 2% 10px 2%;
+  float: left;
+}
+section > .profille .section-body .section-body-left
+{
+	width: 20% !important;
+  min-height: 500px;
+  padding: 10px 2% 10px 2%;
+  float: left;
+}
+section > .section-book .section-body
+.section-body-left h4
+{
+  padding-top: 10px;
+  font-size: 20px;
+}
+section > .section-book .section-body
+.section-body-left ul
+{
+	list-style:none;
+        margin: 10px 0px 10px 0px;
+        padding: 0px 5%;
+}
+section > .section-book .section-body
+.section-body-left ul li
+{
+	padding: 2px 0px;
+}
+section > .section-book .section-body
+.section-body-left ul li a
+{
+    font-size: 16px;
+}
+section > .profille .section-body .section-body-right
+{
+	width: 55% !important;
+  min-height: 500px !important;
+  float: left;
+  padding: 10px 2% 10px 2% !important;
+  border-left: 1px solid rgba(0, 0, 0,0.7);
+}
+section > .section-book .section-body .section-body-right
+{
+	width: 82%;
+  margin:0px 9% !important;
+  min-height: 500px;
+  float: left;
+  padding: 10px 0% 10px 0% !important;
+}
+.section-book > a
+{
+  color:#ffffff !important;
+}
+.section-body-right > h4
+{
+  margin: 10px 0px 15px 20px !important;
+}
+.section-body-right > form div label span
+{
+  font-size:11.5px;
+  color: rgba(242,101,34,0.7);
+  padding-left: 10px;
+}
+
+section > .section-book .section-body .section-body-center-right
+{
+	width: 25%;
+  min-height: 500px;
+  float: right;
+  padding: 30px 2% 100px 2% !important;
+
+}
+
+/* ========================= CARD VIEW ======================== */
+ .card-view
+{
+	width: 32.3%;
+        min-height: 185px;
+        border: 0px solid rgba(242,101,34,1);
+        box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.3);
+        float: left;
+        margin:5px 0.5%;
+}
+.card-view > .card-view-header
+{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid rgba(242,101,34,1);
+}
+.card-view > .card-view-header img
+{
+    width: 100%;
+    height: 100px;
+}
+.card-view > .card-view-footer
+{
+    padding: 5px 15px 14px 15px !important;
+    width: 100%;
+    min-height: 100px;
+}
+.card-view > .card-view-footer h4
+{
+    font-size: 18px;
+    font-family: "CaviarDreams";
+    font-weight: bolder !important;
+}
+.card-view > .card-view-footer a
+{
+    min-width: 40px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.card-view > .card-view-footer .sobre-livro
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.card-view > .card-view-footer .sobre-livro h5
+{
+    font-size: 15px;
+    margin-top: 3px;
+    font-family: "arial";
+    font-weight: bold;
+}
+.inside-img
+{
+   width: 60%;
+   margin:0 auto;
+}
+.inside-img > img
+{
+    width: 100%;
+    
+}
+/* ======================== FOOTER ====================== */
+footer
+{
+	width: 100%;
+	float: left;
+	padding: 10px 20px;
+	color:#ffffff;
+	text-align: center;
+	background: #000000;
+}
+footer > .footer-header   a
+{
+	text-decoration:underline;
+	color: #ffffff;
+}
+/**
+**
+**
+**
+**
+**
+**/

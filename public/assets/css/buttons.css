@@ -1,0 +1,127 @@
+/***FONTS***/
+@font-face{
+	font-family: 'CaviarDreams';
+	src:url(../fonts/CaviarDreams.ttf);
+}
+.texts {
+	font-size:14px !important;
+	color:rgba(246,142,86,1) !important;
+}
+.btn-flow
+{
+	background: #f68e56;
+	color: #ffffff;
+	font-family: 'CaviarDreams';
+	border:1px solid rgba(246,142,86,1);
+	border-radius:2px;
+	min-width: 30%;
+}
+.btn-flow:hover
+{
+	background: rgba(246,142,86,0.8);
+	color: #ffffff;
+	border:1px solid rgba(246,142,86,1);
+}
+input,
+textarea,
+button,
+a
+{
+	border-radius: 2px !important;
+}
+/* PALETA DE CORES */
+.cizento-w
+{
+	background: rgba(245,248,250,1);
+}
+.laranja-sgb
+{
+	background: rgba(246,142,86,1);
+}
+.branco-text{ color:#ffffff !important; text-decoration: none !important;}
+.cizento-txt{color:#d7ccc8 !important;}
+.laranja-hero
+{
+	background: rgba(242,101,34,1) !important;
+	border:1px solid rgba(242,101,34,1) !important;
+}
+.laranja-hero:hover
+{
+	background: rgba(242,101,34,0.85) !important;
+	border:1px solid rgba(242,101,34,0.85) !important;
+}
+.black-sgb
+{
+background: rgba(0,0,0,1) !important;
+border:1px solid rgba(0,0,0,1) !important;
+}
+.black-sgb:hover
+{
+background: rgba(0,0,0,0.85) !important;
+border:1px solid rgba(0,0,0,0.85) !important;
+}
+.laranja{background: rgb(234,155,53) !important;}
+.laranja:hover{background: rgb(234,155,53) !important;}
+.laranja-f{background: rgb(245,182,100) !important;}
+.laranja-f:hover{background: rgb(245,182,100) !important;}
+.laranja-esc{  background: rgb(241,116,79) !important;}
+.laranja-esc_text{  color: rgb(241,116,79) !important;}
+.laranja-esc:hover{  background: rgb(241,116,79) !important;}
+.violeta-esc{  background: rgb(130,109,150) !important;}
+.violeta-esc:hover{  background: rgb(130,109,150) !important;}
+.vermelho-f-text{  color: rgb(243,87,75) !important;}
+
+.vermelho-f{  background: rgb(243,87,75) !important;}
+.vermelho-f:hover{  background: rgb(243,87,73) !important;}
+.azul-car-f {background: rgb(15,115,170) !important;}
+.azul-car-f-text {color: rgb(15,115,170) !important;}
+.azul-car-f:hover{background: rgb(15,115,170) !important;}
+.azul-des-b{  background: rgb(72,144,168) !important;}
+.azul-des-b-text{color: rgb(72,144,168) !important;}
+.azul-des-b:hover{  background: rgb(72,144,168) !important;}
+.azul-des-f{  background: rgb(100,190,216) !important;}
+.azul-des-f:hover{  background: rgb(100,190,216) !important;;}
+.sizento-esc{  background: rgb(43,65,73) !important;}
+.sizento-esc:hover{  background: rgb(43,65,73) !important;}
+.verde-claro{  background: rgb(29,166,19) !important; color: #fff !important; text-decoration: none !important;}
+.verde-claro:hover{  background: rgb(29,166,19) !important;}
+.verde-claro-b{  background: rgb(101,172,9) !important; color: #fff !important; text-decoration: none !important;}
+.verde-claro-b:hover{  background: rgb(101,172,7) !important;}
+.black-hero { background: rgba(0,0,0,0.85);}
+/*
+=================================
+=================================================================
+==============================================================================================================================================
+*/
+
+ .circle-barra span { color:#000;font-weight: bold}
+
+
+.circle-barra{
+	width: 100%;
+	display: inline-block;
+}
+
+span.c-b{
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.bg-bblue{
+	background-color: #24262e;
+}
+.bg-orange{
+	background-color: #e47f1c;
+}
+.bg-cblue{
+	background-color: #f7464a;
+}
+.bg-dblue{
+	background-color: #398ea4;
+}
+.bg-cgreen{
+	background-color: #70d3a1;
+}

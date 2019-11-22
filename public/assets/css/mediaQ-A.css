@@ -1,0 +1,186 @@
+/* MEDIAS QUERIES STUDANTE */
+@media screen and (max-width: 1230px)
+{
+    .inside-img
+{
+    width: 65%;
+   margin:0 auto;
+}
+}
+
+@media  screen  and (max-width: 990px)
+{
+	.section-form
+		{
+			width: 80%;
+			margin: 0px 10% 0px 10%;
+			min-height: 50px;
+			background: rgba(0, 0, 0,01);
+			padding: 9px 0px 0px 0px;
+		  z-index: 1000;
+		}
+section > .section-book .section-body
+.section-body-center-right
+{
+	width: 30%;
+	margin:0px 9% !important;
+  min-height: 100px;
+  float: left;
+}
+section > .section-book .section-body .section-body-right
+{
+	width: 82%;
+	margin:0px 9% !important;
+  min-height: 500px;
+  float: right;
+  padding: 30px 0% 100px 0% !important;
+}
+section > .profille .section-body .section-body-right
+{
+   width: 70% !important;
+  min-height: 500px !important;
+  float: left;
+  padding: 10px 2% 10px 2% !important;
+  border-left: 1px solid rgba(0, 0, 0,0.7);
+}
+section > .profille .section-body .section-body-left
+{
+	width: 30% !important;
+  min-height: 500px;
+  padding: 10px 2% 10px 2%;
+  float: left;
+}
+
+/** ======================= MEDIA CARD ==========================*/
+        .card-view
+{
+	width: 48.3%;
+        margin:5px 0.5%;
+}
+/* ======================== */
+  .inside-img
+{
+    width: 75%;
+   margin:0 auto;
+}
+
+}
+/* max-width: 770px para chamar  o menu */
+@media  screen  and (max-width: 850px)
+{
+	header
+	{
+			width: 100%;
+			min-height: 200px;
+			margin: 0px 0% 0px 0%;
+			float: left;
+			background: #bbb;
+	}
+	/* =========================== SECTIOM BODY ============== */
+	section > .section-body
+	{
+		margin:12px 1% 12px 1%;
+		width: 98%;
+		min-height: 100px;
+		float: left;
+		background: #fff;
+		border: 1px solid rgba(0,0,0,0.4);
+		border-radius: 5px;
+	}
+	/* ==================== section body public =================== */
+ .section-body-public
+	{
+		margin:12px 1% 12px 1%;
+		width: 98%;
+		float: left;
+		background: #fff;
+		border: 1px solid rgba(0,0,0,0.4);
+		border-radius: 5px;
+	}
+ .section-body-public > .sub-body .public-body .div-border
+	{
+		
+		padding: 10px 0px;
+		width: 100%;
+		float: left;
+	}
+ .section-body-public > .sub-body .public-body .line-coment
+	{
+		width: 100%;
+		border-radius: 3px;
+		margin: 3px 0%;
+		padding: 10px;
+		min-height: 40px;
+		float: right;
+	}
+  .inside-img
+{
+    width: 100%;
+   margin:0 auto;
+}
+}
+/* MEDIAS QUERIES USUARIO */
+@media screen and (max-width: 650px)
+{
+    section > .section-book .section-body .section-body-right
+{
+	width: 100%;
+	margin:0px 0% !important;
+  min-height: 500px;
+  float: right;
+  padding: 30px 0% 0px 0% !important;
+}
+section > .profille .section-body .section-body-right
+{
+	width: 100% !important;
+  min-height: 500px !important;
+  float: left;
+  padding: 10px 2% 10px 2% !important;
+  border-left: 1px solid rgba(0, 0, 0,0.7);
+}
+section > .profille .section-body .section-body-center-right
+{
+	width: 100% !important;
+  min-height: 500px;
+  padding: 10px 2% 10px 2%;
+  float: left;
+}
+/** ======================= MEDIA CARD ==========================*/
+        .card-view
+{
+	width: 99%;
+  margin:5px 0.5%;
+}
+/* ================= */
+ 
+}
+@media screen and (max-width: 450px)
+{
+    .section-body-public > .sub-body .public-title
+{
+        width: 100%;
+}
+.section-form
+	{
+		width: 90%;
+		margin: 0px 5% 0px 5%;
+		min-height: 50px;
+		background: rgba(0, 0, 0,01);
+		padding: 9px 0px 0px 0px;
+	  z-index: 1000;
+	}
+/** ======================= MEDIA CARD ==========================*/
+.card-view
+{
+	width: 92%;
+        margin:5px 4%;
+}
+
+}
+@media screen and (max-width: 350px)
+{
+ .section-body-public > .sub-body .public-title
+{
+        width: 100%;
+}
+}
